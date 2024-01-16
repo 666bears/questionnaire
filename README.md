@@ -9,8 +9,11 @@
 #### 所有项目以及源代码本人均调试运行无问题 可支持远程调试运行
 
 
+#### 二、项目演示地址：
 
-#### 二、 项目介绍
+https://www.bilibili.com/video/BV1Uj41177xL/?spm_id_from=333.999.0.0&vd_source=b5789de9f485ad6d0cfaeca1ad4b230c
+
+#### 三、 项目介绍
 基于SSM的问卷调查系统
 
 角色：管理员、用户
@@ -19,13 +22,13 @@
 
 用户：用户进入系统后台可以对个人中心、问卷答复管理等进行操作。
 
-#### 三、项目技术
+#### 四、项目技术
 
 后端：SSM(Spring+SpringMVC+Mybatis)
 
 前端：JSP+CSS+JS+jQuery +Layui
 
-#### 四、 运行环境
+#### 五、 运行环境
 开发语言：Java
 
 项目架构：B/S架构
@@ -40,18 +43,18 @@ Tomcat环境：Tomcat 7.x,8.x,9.x版本均可
 
 项目管理：Maven
 
-#### 五、项目演示地址：
 
-https://www.bilibili.com/video/BV1Uj41177xL/?spm_id_from=333.999.0.0&vd_source=b5789de9f485ad6d0cfaeca1ad4b230c
 
 #### 六、安装教程
-使用Navicat或者其它工具，在mysql中创建对应名称的数据库，并导入项目的sql文件；
 
-使用IDEA/Eclipse导入项目，若为maven项目请选择maven;导入成功后请执行maven clean;maven install命令，然后运行；
+1.使用Navicat或者其它工具，在mysql中创建对应名称的数据库，并导入数据库脚本里面的sql文件.
 
-进入src/main/resources修改application.yml里面的数据库配置
+2.使用IDEA/Eclipse/MyEclipse导入项目，Ecipse/MyEclipse导入时
 
-启动项目
+3.将项目中config.properties中的数据库配置改为自己的配置
+
+4.启动项目
+
 
 
 
